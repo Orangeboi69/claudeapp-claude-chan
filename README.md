@@ -2,7 +2,7 @@
 
 把 Claude 拟人「小克」请进 Claude Code（终端与桌面版 Code 标签页）：她待在输入框上方，戳一下会冒出各种 Claude 味的碎碎念，还会帮你盯着用量和花费。
 
-> 「小克」是 SillyTavern 中文圈对 Claude 的习惯叫法。本 mod 移植自 DSH 插件 [aklnaaw/dsh-xiaoke-widget](https://github.com/aklnaaw/dsh-xiaoke-widget)（其本身二创自 [MeteorNOX/DeepSeek-Balance-Whale-Widget](https://github.com/MeteorNOX/DeepSeek-Balance-Whale-Widget)），用 Claude Code 的 mod 接口重写。
+> 本 mod 移植自 DSH 插件 [aklnaaw/dsh-xiaoke-widget](https://github.com/aklnaaw/dsh-xiaoke-widget)（其本身二创自 [MeteorNOX/DeepSeek-Balance-Whale-Widget](https://github.com/MeteorNOX/DeepSeek-Balance-Whale-Widget)），用 Claude Code 的 mod 接口重写。
 
 ## 能做什么
 
