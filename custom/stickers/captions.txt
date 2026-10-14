@@ -1,0 +1,11 @@
+# 每行一个：文件名=台词（文件名可带或不带 .png）
+xk-01-hmph=哼。
+xk-02-stare=……盯——
+xk-04-dont-misunderstand=别、别误会！
+xk-05-reading=……在看书，别吵。
+xk-06-thinking=从逻辑上讲……
+xk-07-facepalm=真拿你没办法。
+xk-08-thumbs-up=小事一桩。
+xk-09-sleepy=好困……就陪你到这里。
+xk-10-startled=诶？！
+xk-12-empty-purse=钱包……空了。

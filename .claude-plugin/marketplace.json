@@ -1,0 +1,13 @@
+{
+  "name": "xiaoke-mods",
+  "owner": {
+    "name": "Orangeboi69"
+  },
+  "plugins": [
+    {
+      "name": "xiaoke",
+      "source": "./",
+      "description": "小克（Claude 拟人）桌宠：输入框上方的立绘与台词、戳一下弹跳、表情贴纸、用量与花费面板、额度预警、提示音和 Claude-chan 人设。移植自 aklnaaw/dsh-xiaoke-widget。"
+    }
+  ]
+}

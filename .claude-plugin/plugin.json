@@ -1,0 +1,159 @@
+{
+  "name": "xiaoke",
+  "version": "1.0.0",
+  "description": "小克（Claude 拟人）桌宠：输入框上方的立绘与台词、戳一下弹跳、表情贴纸、用量与花费面板、额度预警、提示音和 Claude-chan 人设。移植自 aklnaaw/dsh-xiaoke-widget。",
+  "license": "MIT",
+  "keywords": [
+    "xiaoke",
+    "小克",
+    "mascot",
+    "desk-pet",
+    "usage",
+    "claude-chan"
+  ],
+  "types": "./types/index.d.ts",
+  "userConfig": {
+    "showBand": {
+      "type": "boolean",
+      "title": "Show Xiaoke above the prompt",
+      "description": "Draw her band above the prompt box.",
+      "default": true
+    },
+    "showPortrait": {
+      "type": "boolean",
+      "title": "Show her portrait",
+      "description": "Draw her picture in the band and the pane.",
+      "default": true
+    },
+    "flip": {
+      "type": "boolean",
+      "title": "Mirror her portrait",
+      "description": "Flip her picture left to right.",
+      "default": false
+    },
+    "bounce": {
+      "type": "boolean",
+      "title": "Bounce when poked",
+      "description": "Play the plushie bounce when you poke her.",
+      "default": true
+    },
+    "stickers": {
+      "type": "boolean",
+      "title": "Stickers when poked",
+      "description": "Now and then show a sticker instead of a line when you poke her.",
+      "default": true
+    },
+    "stickerChance": {
+      "type": "number",
+      "title": "Sticker chance (%)",
+      "description": "Percent of pokes that show a sticker instead of a line.",
+      "default": 12.5
+    },
+    "pokeSound": {
+      "type": "boolean",
+      "title": "Sound when poked",
+      "description": "Play the poke sound when you poke her.",
+      "default": true
+    },
+    "pokeSoundChoice": {
+      "type": "string",
+      "title": "Poke sound",
+      "description": "Which sound a poke plays.",
+      "options": [
+        "squeak",
+        "exp-orb"
+      ],
+      "default": "squeak"
+    },
+    "turnEndSound": {
+      "type": "boolean",
+      "title": "Chime when a turn ends",
+      "description": "Play a chime when Claude finishes answering.",
+      "default": true
+    },
+    "approvalSound": {
+      "type": "boolean",
+      "title": "Sound on approval prompts",
+      "description": "Play a sound when Claude asks for permission.",
+      "default": true
+    },
+    "askSound": {
+      "type": "boolean",
+      "title": "Sound on questions",
+      "description": "Play a sound when Claude asks you a question.",
+      "default": true
+    },
+    "costSound": {
+      "type": "boolean",
+      "title": "Sound on costly turns",
+      "description": "Play a sound when one turn costs at least the cost threshold.",
+      "default": true
+    },
+    "costThreshold": {
+      "type": "number",
+      "title": "Cost threshold (USD)",
+      "description": "A turn costing this much or more plays the cost sound.",
+      "default": 1
+    },
+    "lowUsageWarning": {
+      "type": "boolean",
+      "title": "Cry when usage runs low",
+      "description": "Show her crying face while the 5h or 7d window is used past the low-usage threshold.",
+      "default": true
+    },
+    "lowUsageThreshold": {
+      "type": "number",
+      "title": "Low-usage threshold (%)",
+      "description": "Percent of the 5h or 7d rate-limit window used that counts as low.",
+      "default": 80
+    },
+    "showCost": {
+      "type": "boolean",
+      "title": "Show session cost",
+      "description": "Show what this session has cost.",
+      "default": true
+    },
+    "showUsage": {
+      "type": "boolean",
+      "title": "Show usage tracker",
+      "description": "Show rate limits, context, last turn and today's spend.",
+      "default": true
+    },
+    "showRecentSpend": {
+      "type": "boolean",
+      "title": "Show today and 7-day spend",
+      "description": "Show 今日 and 近7天 spend in the band and pane (always listed by /xiaoke usage).",
+      "default": false
+    },
+    "customContent": {
+      "type": "boolean",
+      "title": "Use her custom folder",
+      "description": "Load quotes, a portrait, stickers and sounds from the custom folder in her plugin folder.",
+      "default": true
+    },
+    "chatter": {
+      "type": "boolean",
+      "title": "Reacts on her own",
+      "description": "Now and then, after a turn, she says something or shows a sticker by herself.",
+      "default": true
+    },
+    "chatterChance": {
+      "type": "number",
+      "title": "Reaction chance (%)",
+      "description": "Percent of finished turns she reacts to.",
+      "default": 35
+    },
+    "chatterInChat": {
+      "type": "boolean",
+      "title": "Reactions in the chat",
+      "description": "Also show her reaction line under Claude's answer in the chat.",
+      "default": false
+    },
+    "persona": {
+      "type": "boolean",
+      "title": "Claude-chan persona",
+      "description": "Have Claude answer in the Claude-chan (小克) persona.",
+      "default": true
+    }
+  }
+}

@@ -1,0 +1,9 @@
+# Written by Claude Code when it loads the mod
+.claude-plugin/types/
+tsconfig.json
+reload.stamp
+# GIF stickers split into frames on load
+custom/.frames/
+# Sounds are downloaded by scripts/fetch-sounds.ps1, not shipped
+sounds/*
+!sounds/.gitkeep
