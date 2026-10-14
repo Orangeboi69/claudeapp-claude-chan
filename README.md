@@ -97,3 +97,5 @@ Windows 上播放音效需要 **ffmpeg**（用其中的 `ffplay`；没有时退�
   - **哭脸**：取自 [AirsEDA](https://github.com/AirsEDA) 基于该立绘制作的动态小克（哭脸版）中的一帧，未做其他修改。
   - **表情贴纸**：`custom/stickers/` 中的贴纸以该立绘为参考、借助图像模型生成，并经过抠图、缩放处理。
   - 以上所有衍生图像同样按 **CC BY-NC-SA 4.0** 发布：需署名、**禁止商用**、以相同协议共享。
+
+(Made by Opus 5.5 medium)
