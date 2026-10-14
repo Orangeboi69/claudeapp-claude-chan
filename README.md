@@ -90,7 +90,8 @@ Windows 上播放音效需要 **ffmpeg**（用其中的 `ffplay`；没有时退�
 
 ## 致谢与许可
 
-- **代码**：MIT，见 [`LICENSE`](LICENSE)。底子来自 MeteorNOX 的原项目与 aklnaaw 的小克二创。
-- **小克立绘**（`hooks/portrait.ts` 内嵌的图片及由它裁切、加工出的所有图像，包括 `hooks/art.ts` 与 `custom/stickers/`）：**CC BY-NC-SA 4.0**，见 [`LICENSE-ARTWORK`](LICENSE-ARTWORK)。哭脸静帧取自 [AirsEDA](https://github.com/AirsEDA) 制作的动态小克。`custom/stickers/` 中的表情贴纸以该立绘为参考、借助图像模型生成，同样按 CC BY-NC-SA 4.0 发布。**禁止商用**。
-- **音效**：不随本仓库分发，由 `scripts/fetch-sounds.ps1` 从上游下载，来源说明见 [`SOUNDS-PROVENANCE.md`](SOUNDS-PROVENANCE.md)。
-- **Claude-chan 人设**提示词由社区贡献。本项目为同人二创，与 Anthropic 官方无关。
+- **小克立绘**：作者 [aklnaaw](https://github.com/aklnaaw)，出自 [aklnaaw/dsh-xiaoke-widget](https://github.com/aklnaaw/dsh-xiaoke-widget)，按 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.zh-hans) 使用，许可全文见 [`LICENSE-ARTWORK`](LICENSE-ARTWORK)。
+  - **改动**：立绘缩小至 256×256 并重新压缩，嵌入 `hooks/portrait.ts`；`hooks/art.ts` 中的两枚圆形表情由立绘裁切而成。
+  - **哭脸**：取自 [AirsEDA](https://github.com/AirsEDA) 基于该立绘制作的动态小克（哭脸版）中的一帧，未做其他修改。
+  - **表情贴纸**：`custom/stickers/` 中的贴纸以该立绘为参考、借助图像模型生成，并经过抠图、缩放处理。
+  - 以上所有衍生图像同样按 **CC BY-NC-SA 4.0** 发布：需署名、**禁止商用**、以相同协议共享。
