@@ -4,6 +4,8 @@
 
 > 本 mod 移植自 DSH 插件 [aklnaaw/dsh-xiaoke-widget](https://github.com/aklnaaw/dsh-xiaoke-widget)（其本身二创自 [MeteorNOX/DeepSeek-Balance-Whale-Widget](https://github.com/MeteorNOX/DeepSeek-Balance-Whale-Widget)），用 Claude Code 的 mod 接口重写。
 
+![小克待在 Claude Code 桌面版的输入框上方](docs/screenshots/band.png)
+
 ## 能做什么
 
 - **输入框上方的小克**：立绘 + 台词 + 「戳一下小克」「藏起来」按钮；窗口窄时自动换行，不会被截断。
